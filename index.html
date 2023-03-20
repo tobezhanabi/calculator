@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style1.css" />
+    <title>Calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="theme-blue">
+    <main>
+      <header>
+        <h1>calc.</h1>
+        <div class="theme-switcher">
+          <p>THEME</p>
+          <div>
+            <div>
+              <label class="theme-number" for="theme-1">1</label>
+              <label class="theme-number" for="theme-2">2</label>
+              <label class="theme-number" for="theme-2">3</label>
+            </div>
+            <div class="theme-container">
+              <input type="radio" name="theme" value="blue" id="" checked />
+
+              <input type="radio" name="theme" value="light" id="" />
+
+              <input type="radio" name="theme" value="violet" id="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="display-section">
+        <p class="display-metric">0.</p>
+      </div>
+      <section>
+        <div class="number-section">
+          <p class="grid-number">7</p>
+          <p class="grid-number">8</p>
+          <p class="grid-number">9</p>
+          <p class="grid-number del">DEL</p>
+          <p class="grid-number">4</p>
+          <p class="grid-number">5</p>
+          <p class="grid-number">6</p>
+          <p class="grid-number">+</p>
+          <p class="grid-number">1</p>
+          <p class="grid-number">2</p>
+          <p class="grid-number">3</p>
+          <p class="grid-number">-</p>
+          <p class="grid-number">.</p>
+          <p class="grid-number">0</p>
+          <p class="grid-number">/</p>
+          <p class="grid-number">*</p>
+        </div>
+        <div class="cal-submit">
+          <p data-all-clear class="grid-item reset">RESET</p>
+          <p data-equals class="grid-item">=</p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>
