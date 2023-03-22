@@ -152,6 +152,7 @@ input[type="radio"]:checked::before {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  overflow: hidden;
 }
 
 .display-metric {
@@ -159,6 +160,7 @@ input[type="radio"]:checked::before {
   bottom: 0;
   right: 0;
   font-size: 58px;
+  white-space: nowrap;
 }
 section {
   background-color: var(--color-toggle-bg);
@@ -184,7 +186,7 @@ section {
   -o-border-radius: 4px;
 }
 .grid-number:hover {
-  opacity: 0.89;
+  opacity: 0.69;
 }
 
 .cal-submit {

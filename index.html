@@ -38,33 +38,36 @@
           </div>
         </div>
       </header>
-      <div class="display-section">
-        <p class="display-metric">0.</p>
+
+      <div class="calculator">
+        <div class="display-section">
+          <p class="display-metric">0</p>
+        </div>
+        <section class="calculator-key">
+          <div class="number-section">
+            <p class="grid-number numbers">7</p>
+            <p class="grid-number numbers">8</p>
+            <p class="grid-number numbers">9</p>
+            <p class="grid-number operation del" data-action="delete">DEL</p>
+            <p class="grid-number numbers">4</p>
+            <p class="grid-number numbers">5</p>
+            <p class="grid-number numbers">6</p>
+            <p class="grid-number operation" data-action="add">+</p>
+            <p class="grid-number numbers">1</p>
+            <p class="grid-number numbers">2</p>
+            <p class="grid-number numbers">3</p>
+            <p class="grid-number operation" data-action="subtract">-</p>
+            <p class="grid-number numbers" data-action="decimal">.</p>
+            <p class="grid-number numbers">0</p>
+            <p class="grid-number operation" data-action="divide">/</p>
+            <p class="grid-number operation" data-action="multiply">*</p>
+          </div>
+          <div class="cal-submit">
+            <p class="grid-item reset" data-action="clear">RESET</p>
+            <p class="grid-item" data-action="calculate">=</p>
+          </div>
+        </section>
       </div>
-      <section>
-        <div class="number-section">
-          <p class="grid-number">7</p>
-          <p class="grid-number">8</p>
-          <p class="grid-number">9</p>
-          <p class="grid-number del">DEL</p>
-          <p class="grid-number">4</p>
-          <p class="grid-number">5</p>
-          <p class="grid-number">6</p>
-          <p class="grid-number">+</p>
-          <p class="grid-number">1</p>
-          <p class="grid-number">2</p>
-          <p class="grid-number">3</p>
-          <p class="grid-number">-</p>
-          <p class="grid-number">.</p>
-          <p class="grid-number">0</p>
-          <p class="grid-number">/</p>
-          <p class="grid-number">*</p>
-        </div>
-        <div class="cal-submit">
-          <p data-all-clear class="grid-item reset">RESET</p>
-          <p data-equals class="grid-item">=</p>
-        </div>
-      </section>
     </main>
   </body>
   <script src="./index.js"></script>
